@@ -1,0 +1,37 @@
+22:43:39 **** Incremental Build of configuration Debug for project Blink_LED ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'main':
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:97:36: warning: passing argument 2 of 'HAL_GPIO_Init' makes pointer from integer without a cast [-Wint-conversion]
+   97 | #define GPIO_PIN_12                ((uint16_t)0x1000)  /* Pin 12 selected   */
+      |                                    ^~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    short unsigned int
+../Core/Src/main.c:92:23: note: in expansion of macro 'GPIO_PIN_12'
+   92 |   HAL_GPIO_Init(GPIOD,GPIO_PIN_12);
+      |                       ^~~~~~~~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:224:61: note: expected 'GPIO_InitTypeDef *' but argument is of type 'short unsigned int'
+  224 | void  HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init);
+      |                                           ~~~~~~~~~~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc -o "Blink_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\Blink_LED\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blink_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blink_LED.elf
+ 
+arm-none-eabi-size  Blink_LED.elf 
+arm-none-eabi-objdump -h -S Blink_LED.elf  > "Blink_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+   6552	     20	   1572	   8144	   1fd0	Blink_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blink_LED.list
+ 
+
+22:43:40 Build Finished. 0 errors, 1 warnings. (took 1s.753ms)
+
