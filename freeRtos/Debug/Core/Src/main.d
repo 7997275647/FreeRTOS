@@ -28,6 +28,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/Global.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/SEGGER_RTT_Conf.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
@@ -65,6 +72,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/Global.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/freeRtos/Middlewares/Third_Party/SEGGER/Config/SEGGER_RTT_Conf.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:

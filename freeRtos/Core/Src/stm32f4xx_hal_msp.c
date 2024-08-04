@@ -22,7 +22,7 @@
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+//#include "FreeRTOS.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -75,6 +75,8 @@ void HAL_MspInit(void)
   HAL_NVIC_SetPriority(PendSV_IRQn, 15, 0);
 
   /* USER CODE BEGIN MspInit 1 */
+  //vInitPrioGroupValue();
+  NVIC_SetPriorityGrouping( 0 );
 
   /* USER CODE END MspInit 1 */
 }

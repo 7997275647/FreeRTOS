@@ -37,6 +37,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define DWT_CTRL (*(volatile uint32_t *)0xE0001000)
 
 /* USER CODE END PD */
 
@@ -103,6 +104,7 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
 
+
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -126,7 +128,11 @@ int main(void)
 
   /* Create the thread(s) */
   /* creation of defaultTask */
+  /* Enable CYCNT counter */
+  DWT_CTRL |= (1<<0);
 
+  SEGGER_SYSVIEW_Conf();
+  SEGGER_SYSVIEW_Start();
 
   status = xTaskCreate(Task1_Handle, "Task-1", 200, "Hello World from Task-1",2, &task1_handle);
 
@@ -134,7 +140,7 @@ int main(void)
 
   status = xTaskCreate(Task2_Handle, "Task-2", 200, "Hello World from Task-2",2, &task2_handle);
 
-    configASSERT(status == pdPASS);
+  configASSERT(status == pdPASS);
 
   vTaskStartScheduler();
 
@@ -354,16 +360,22 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 static void Task1_Handle(void* parameters){
+	char msg[100];
 	while(1){
-		printf("%s\n", (char*)parameters);
+		//printf("%s\n", (char*)parameters);
+		snprintf(msg,100,"%s\n", (char*)parameters);
+		SEGGER_SYSVIEW_PrintfTarget(msg);
 		taskYIELD();
 	}
 
 }
 
 static void Task2_Handle(void* parameters){
+	char msg[100];
 	while(1){
-			printf("%s\n", (char*)parameters);
+			//printf("%s\n", (char*)parameters);
+			snprintf(msg,100,"%s\n", (char*)parameters);
+			SEGGER_SYSVIEW_PrintfTarget(msg);
 			taskYIELD();
 		}
 

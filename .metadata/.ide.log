@@ -1,2 +1,77 @@
-2024-07-20 12:37:08,652 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=false
-2024-07-20 12:37:21,325 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] StartTraceHandler.execute(), success : Collect=true
+2024-07-29 21:16:57,540 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-07-29 21:16:58,934 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 2170mS.
+2024-07-29 21:16:58,934 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-29 21:16:58,936 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-29 21:16:59,691 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-07-29 21:16:59,698 [INFO] ApiDb:448 - Save user favorites file C:\Users\modug/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-07-29 21:16:59,699 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-07-29 21:16:59,700 [INFO] ApiDb:448 - Save user favorites file C:\Users\modug/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-07-29 21:16:59,700 [INFO] ApiDb:452 - User favorites Boards=[]
+2024-07-29 22:12:48,183 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779722424 Bytes (1073741824)
+2024-07-29 22:12:50,025 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 808560312 Bytes (1073741824)
+2024-07-29 22:12:51,520 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 863608504 Bytes (1073741824)
+2024-07-29 22:12:51,788 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-29 22:12:51,788 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-29 22:12:51,788 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-29 22:12:51,789 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-29 22:12:51,790 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-07-29 22:12:51,917 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\license.tmp_save
+2024-07-29 22:12:52,028 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\license.tmp
+2024-07-29 22:12:52,073 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\gpio.tmp_save
+2024-07-29 22:12:52,196 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\gpio.tmp
+2024-07-29 22:12:52,238 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_it.c_save
+2024-07-29 22:12:52,408 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_it.c
+2024-07-29 22:12:52,417 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_it.h_save
+2024-07-29 22:12:52,468 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_it.h
+2024-07-29 22:12:52,480 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_msp.c_save
+2024-07-29 22:12:52,555 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_msp.c
+2024-07-29 22:12:52,560 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\system.tmp_save
+2024-07-29 22:12:52,602 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\system.tmp
+2024-07-29 22:12:52,612 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-07-29 22:12:52,663 [INFO] CodeEngine:335 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_hal_conf.h
+2024-07-29 22:12:52,688 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\main.h_save
+2024-07-29 22:12:52,745 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\main.h
+2024-07-29 22:12:52,753 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\main.c_save
+2024-07-29 22:12:52,829 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\main.c
+2024-07-29 22:12:53,256 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 151mS.
+2024-07-29 22:12:53,259 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-07-29 22:12:53,429 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-07-29 22:12:54,773 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1514mS.
+2024-07-29 22:12:54,774 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-07-29 22:12:54,776 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-07-29 22:33:33,304 [INFO] Gpio:277 - dependency for GPIO []
+2024-07-29 22:42:34,451 [INFO] Gpio:277 - dependency for GPIO []
+2024-07-29 22:45:18,051 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 888306016 Bytes (1073741824)
+2024-07-29 22:45:20,051 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 913471840 Bytes (1073741824)
+2024-07-29 22:45:23,682 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 781165536 Bytes (1073741824)
+2024-07-29 22:45:23,988 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-29 22:45:23,988 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-29 22:45:23,988 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-29 22:45:23,989 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-29 22:45:23,990 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-07-29 22:45:24,114 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\license.tmp_save
+2024-07-29 22:45:24,173 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\license.tmp
+2024-07-29 22:45:24,194 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\gpio.tmp_save
+2024-07-29 22:45:24,238 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\gpio.tmp
+2024-07-29 22:45:24,284 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_it.c_save
+2024-07-29 22:45:24,388 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_it.c
+2024-07-29 22:45:24,392 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_it.h_save
+2024-07-29 22:45:24,425 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_it.h
+2024-07-29 22:45:24,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_msp.c_save
+2024-07-29 22:45:24,484 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_msp.c
+2024-07-29 22:45:24,490 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\system.tmp_save
+2024-07-29 22:45:24,537 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\MXTmpFiles\system.tmp
+2024-07-29 22:45:24,541 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-07-29 22:45:24,582 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-07-29 22:45:24,588 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-07-29 22:45:24,638 [INFO] CodeEngine:335 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\stm32f4xx_hal_conf.h
+2024-07-29 22:45:24,660 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\main.h_save
+2024-07-29 22:45:24,758 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Inc\main.h
+2024-07-29 22:45:24,763 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\main.c_save
+2024-07-29 22:45:24,833 [INFO] CodeEngine:279 - Generated code: C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\Core\Src\main.c
+2024-07-29 22:45:25,160 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 106mS.
+2024-07-29 22:45:25,162 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-07-29 22:45:25,365 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-07-29 22:45:26,266 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1104mS.
+2024-07-29 22:45:26,267 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-07-29 22:45:26,268 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

@@ -1,21 +1,21 @@
-12:53:32 **** Incremental Build of configuration Debug for project freeRtos ****
+11:32:47 **** Incremental Build of configuration Debug for project FreeRTOS_LED ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "freeRtos.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\freeRtos\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="freeRtos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: freeRtos.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/SEGGER/Config" -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/SEGGER/OS" -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/FreeRTOS" -I"C:/Users/modug/STM32CubeIDE/freeRTOS_workspace/common/ThirdParty/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "FreeRTOS_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\modug\STM32CubeIDE\freeRTOS_workspace\FreeRTOS_LED\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRTOS_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FreeRTOS_LED.elf
  
-arm-none-eabi-size  freeRtos.elf 
-arm-none-eabi-objdump -h -S freeRtos.elf  > "freeRtos.list"
+arm-none-eabi-size  FreeRTOS_LED.elf 
+arm-none-eabi-objdump -h -S FreeRTOS_LED.elf  > "FreeRTOS_LED.list"
    text	   data	    bss	    dec	    hex	filename
-  21128	    116	  20740	  41984	   a400	freeRtos.elf
+  24808	     24	  84520	 109352	  1ab28	FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
-Finished building: freeRtos.list
+Finished building: FreeRTOS_LED.list
  
-12:53:38 **** Incremental Build of configuration Debug for project freeRtos ****
+11:32:55 **** Incremental Build of configuration Debug for project FreeRTOS_LED ****
 make -j16 all 
-arm-none-eabi-size  freeRtos.elf 
+arm-none-eabi-size  FreeRTOS_LED.elf 
    text	   data	    bss	    dec	    hex	filename
-  21128	    116	  20740	  41984	   a400	freeRtos.elf
+  24808	     24	  84520	 109352	  1ab28	FreeRTOS_LED.elf
 Finished building: default.size.stdout
  
