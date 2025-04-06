@@ -1,0 +1,2 @@
+cppcheck --enable=all --inconclusive --std=c99 -I ./Core/Inc -I ./Drivers -I FreeRTOS/Source/include -I FreeRTOS/Source/portable/GCC/ARM_CM4F ./Core ./Drivers ./FreeRTOS --suppress=missingIncludeSystem 2> cppcheck_report.txt
+echo "Cppcheck finished. Report saved to cppcheck_report.txt"
